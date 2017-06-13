@@ -11,8 +11,16 @@
         <link rel="stylesheet" href="css/index.css">
     </head>
     <body>
-        <p id="loc">Your TimeZone is </p>
-        <p id="temp"></p>
-        <p id="temp2"></p>
+        <div class="conatiner text-center"> 
+  			<strong><h2>Local Weather App</h2></strong>
+  			<div class="jumbotron">
+    			<p id="loc">Your Weather Forecast</p>
+    			<input type="checkbox" checked data-toggle="toggle" data-on="°F" data-off="°C" id="chck">
+    			<div clas=="row">
+    				<div class="col-md-4" id="temp"></div>
+     			 	<div class="col-md-8"><canvas id="icon"></canvas></div>
+    			</div>
+  			</div>
+		</div>
     </body>
 </html>

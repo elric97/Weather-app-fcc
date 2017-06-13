@@ -1,4 +1,21 @@
 .jumbotron
 {
   margin: 5% 5%;
+  margin-top: 2%;
+  height: auto;
+}
+#icon
+{
+  padding-bottom: 3%;
+}
+
+@media screen and (max-width: 600px) {
+    #icon {
+        width: 50%;
+    }
+}
+@media screen and (min-width: 2000px) {
+    .jumbotron {
+        height: 500px;
+    }
 }
